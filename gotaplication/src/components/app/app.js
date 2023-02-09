@@ -4,6 +4,10 @@ import Header from '../header';
 import RandomChar from '../randomChar';
 import ErrorMessage from "../errorMessage";
 import CharacterPage from "../chracterPage";
+import ItemList from "../itemList";
+import CharDetails from "../charDetails";
+
+
 
 export default class App extends Component {
 
@@ -46,9 +50,22 @@ export default class App extends Component {
                         </Col>
                     </Row>
                     <CharacterPage/>
-                    <CharacterPage/>
-                    <CharacterPage/>
-                    <CharacterPage/>
+                    {/*<Row>*/}
+                    {/*    <Col md='6'>*/}
+                    {/*        <ItemList onCharSelected={this.onCharSelected}/>*/}
+                    {/*    </Col>*/}
+                    {/*    <Col md='6'>*/}
+                    {/*        <CharDetails charId={this.state.selectedChar}/>*/}
+                    {/*    </Col>*/}
+                    {/*</Row>*/}
+                    {/*<Row>*/}
+                    {/*    <Col md='6'>*/}
+                    {/*        <ItemList onCharSelected={this.onCharSelected}/>*/}
+                    {/*    </Col>*/}
+                    {/*    <Col md='6'>*/}
+                    {/*        <CharDetails charId={this.state.selectedChar}/>*/}
+                    {/*    </Col>*/}
+                    {/*</Row>*/}
                 </Container>
             </>
         );
